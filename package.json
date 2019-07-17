@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
