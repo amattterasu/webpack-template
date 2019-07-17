@@ -1,8 +1,5 @@
-.wrapper {
+.container {
     display: flex;
     background-color: gray;
-}
-
-p {
-   text-align: center; 
+    flex-direction: column;
 }
