@@ -1,2 +1,2 @@
 let add = (a, b) => a + b;
-console.log( add(14, 16) );
+console.log( add(224, 16) );
