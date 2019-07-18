@@ -8,13 +8,16 @@ block variables
 block content
   section
     .container
-      h1 Content is here
-      h1 Ready
-  section
-    .container
-      h1 Content is here
-      h1 for
-  section
-    .container
-      h1 Content is here
-      h1 this     
+      +item('item title', 'item descr')
+      +item('item title', 'item descr')
+      +item('item title', 'item descr')
+  example-component
+
+
+block script
+  script(type='text/javascript').
+    const foo = true;
+    let bar = function() {};
+    if (foo) {
+    bar(1 + 5)
+    }
